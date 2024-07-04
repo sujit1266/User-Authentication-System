@@ -1,0 +1,49 @@
+nav{
+     height: 100px;
+     background-color: black;
+     display: flex;
+
+     .left{
+          display: flex;
+          align-items: center;
+          margin-left: 100px;
+          .logo{
+               display: flex;
+               align-items: center;
+               img{
+                    height: 60px;
+                    width: 62px;
+                    border-radius: 50%;
+               }
+               
+               span{
+                    margin-left: 18px;
+                    color: white;
+               }
+          }
+     }
+
+     .right{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-left: 500px;
+          width: 500px;
+          span{
+               color: white;
+          }
+
+          span:hover{
+               color: rgb(165, 165, 34);
+          }
+
+          button{
+               background-color: rgba(0, 0, 255, 0.502);
+               color: white;
+               border: none;
+               padding: 10px;
+               border-radius: 6px;
+               cursor: pointer;
+          }
+     }
+}
